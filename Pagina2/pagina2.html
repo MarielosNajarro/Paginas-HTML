@@ -6,13 +6,18 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
+	<!-- seccion izquierda de la pagina -->
 	<aside>
-		<div class="logo-container">
+		<!-- contenedor del logo de la pagina -->
+		<div class="logo-container"> 
 			<img src="">
 		</div>
 
+		<!-- agregando el menu de la pagina -->
 		<nav>
+			<!--Agregando una lista en donde van contenidos diversos elentos-->
 			<ul>
+				<!--Dichos elementos son links que llevan a otras partes (paginas) de la pagina web-->
 				<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="">Tastemarkes</a></li>
 				<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="">Blog</a></li>
 				<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="">The A-List</a></li>
@@ -21,100 +26,126 @@
 			</ul>
 		</nav>
 
+		<!-- agregando un boton social (twitter) -->
 		<p>LATEST TWEET</p>
 		<i class="fab fa-twitter"></i>
 		<button>Join the Conversation</button>
 
+		<!-- contenedor del comentario de invitacion a la pagina social (facebook) -->
 		<div>
 			<p>LETS BE FRIENDS</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>
+				For weekly finds, community recomendations, and more, like us on Facebook.
+			</p>
 		</div>
 	</aside>
 
+	<!--Generando una seccion de contenido-->
 	<section>
+		<!-- agregando informacion general del articulo -->
 		<article>
+			<!--Representando un periodo especifico de tiempo-->
 			<time>Wednesday, May 23, 2012</time>
 			<h1>2012's Best Summer Cook</h1>
+			<!-- agregando una cita en bloque -->
 			<blockquote><b>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</b>
+				With the best of the season comng from "orchards, farms an gardens", NPR has put together an impressive Collection of 10 summer cookbooks.</b>
 			</blockquote>
 			<img src="">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<!-- agregando texto principal-->
+			<p>
+				Summer is, after all, so often a time of accidental vegetarianism, It's when even carnivorous folk (miself among them) are seducec by field and farm standsm lired in by letucce and temped by tomatoes. We dont necessarily set out to go meatles. But a couple of fruit smoothies and several bowls of baby greens later in the lazy heat of a stove-avoidin afternoon, tha's just what happens. And so, to help you maje the most summer's bountry, here are 10 codebooks that tale their inspiration from that most pacegul of kingdomps -the plant kingrom.
+			</p>
 			<p>See the full collection <a href="#">here.</a></p>
 		</article>
 
+		<!-- representando un titulo de un fragmento de contenido -->
 		<figcaption>
             Imagen via <a href="#">NPR.</a> 
         </figcaption>
 
+        <!--Agregando una lista en donde van contenidos diversos elentos-->
         <ul>
+        	<!--Dichos elementos son links que llevan a otras partes (paginas) de la pagina web-->
+        	 <!-- la etiqueta link usada para hacer fav icon (recursos externo) -->
         	<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="#">Julie Shah Lamba</a></li>
         	<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="#">Leave a comment</a></li>
         	<li><link rel="icon" href="#" type="image/gif" sizes="16x16"><a href="#">Cook</a></li>
         </ul>
 	</section>
 
+	<!-- seccion derecha de la pagina -->
 	<aside>
+		<!-- agregando iconos y link para suscribirse-->
 		<i class="fas fa-rss-square"></i>
 		<a href="#">Suscribe via RSS</a>
 		<i class="fas fa-question-circle"></i>
 
+		<!-- contenedor de las categorias -->
 		<div class="categories">
 			<h4>Categories</h4>
-			<a href="#">Cook</a>
-			<a href="#">Dime</a>
-			<a href="#">Events</a>
-			<a href="#">Know</a>
-			<a href="#">Monologues</a>
-			<a href="#">My Veg Life</a>
-			<a href="#">Raed</a>
-			<a href="#">Shop</a>
-			<a href="#">Ten Things</a>
+			<!-- agregando un submenu a la pagina -->
+			<nav class="opciones">
+				<!--Dichos elementos son links que llevan a otras partes (paginas) de la pagina web-->
+				<ul>
+					<li><a href="#">Cook</a></li>
+					<li><a href="#">Dime</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Know</a></li>
+					<li><a href="#">Monologues</a></li>
+					<li><a href="#">My Veg Life</a></li>
+					<li><a href="#">Raed</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Ten Things</a></li>
+				</ul>
+			</nav>
 		</div>
 
+		<!-- contenedor de busqueda de la pagina-->
 		<div class="search">
+			<!--Representa la seccion en donde contiene elementos interactivos con el usuario-->
 			<form>
 				<input type="text" name="suscribirse" placeholder="Seach">
 				<input type="submit" name="enviar" value="Go">
 			</form>
 		</div>
 		
+		<!-- contenedor de archivos de la pagina -->
 		<div class="archives"> 
 			<h4>Archives</h4>
-			<a href="#">May 2012</a>
-			<a href="#">April 2012</a>
-			<a href="#">March 2012</a>
-			<a href="#">February 2012</a>
-			<a href="#">January 2012</a>
-			
+			<!-- agregando un submenu a la pagina -->
+			<nav class="fechas">
+				<!--Dichos elementos son links que llevan a otras partes (paginas) de la pagina web-->
+				<ul>
+					<li><a href="#">May 2012</a></li>
+					<li><a href="#">April 2012</a></li>
+					<li><a href="#">March 2012</a></li>
+					<li><a href="#">February 2012</a></li>
+					<li><a href="#">January 2012</a></li>
+				</ul>
+			</nav>
 		</div>
 	</aside>
 
+	<!-- agregando el pie de la pagina -->
 	<footer>
+		<!-- agregando un submenu a la pagina -->
 		<nav>
+			<!--Dichos elementos son links que llevan a otras partes (paginas) de la pagina web-->
 			<ul>
 				<li><a href="">Privacy Policy</a></li>
 				<li><a href="">Terms of Use</a></li>
 				<li><a href="">Contact</a></li>
 			</ul>
-			
 		</nav>
+
 		<p>© 2018 Food, all rights reserved</p>
+		<!-- contenedor de las imagenes de las redes sociales -->
 		<div class="social-ico">
 			<img src="">
 			<img src="">
 			<img src="">
 		</div>
 	</footer>
-
-
-
 </body>
 </html>
